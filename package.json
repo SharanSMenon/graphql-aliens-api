@@ -1,0 +1,26 @@
+{
+  "name": "node-sandbox",
+  "version": "1.0.0",
+  "description": "Simple Node Sandbox",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js localhost 8080"
+  },
+  "dependencies": {
+    "casual": "1.6.2",
+    "express": "4.17.1",
+    "express-graphql": "0.8.0",
+    "graphql": "14.4.0",
+    "graphql-playground-middleware-express": "1.7.12",
+    "graphql-tools": "4.0.5",
+    "lodash": "4.17.11",
+    "sequelize": "5.8.12",
+    "sqlite3": "4.0.9"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "nodemon": "1.18.4"
+  }
+}
