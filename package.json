@@ -13,7 +13,7 @@
     "graphql": "14.4.0",
     "graphql-playground-middleware-express": "1.7.12",
     "graphql-tools": "4.0.5",
-    "lodash": "4.17.11",
+    "lodash": "4.17.19",
     "sequelize": "5.8.12",
     "sqlite3": "4.0.9"
   },
